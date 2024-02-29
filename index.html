@@ -4,16 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Data Visualization</title>
-    <!-- Agrega los enlaces a las bibliotecas de Plotly y tu script JavaScript -->
+    <title>Talento Tech - Análisis de Datos - Talle 1</title>
+    <!-- Enlace a las bibliotecas de Plotly y tu script JavaScript -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
-    <!-- Contenedor donde se mostrará el gráfico de longitud de contraseñas -->
-    <div id="password-lengths-chart-container"></div>
+    <!-- Banner superior -->
+    <img class="banner" src="banner.png" alt="Banner superior">
 
-    <!-- Contenedor donde se mostrará el gráfico de dominios de correos electrónicos -->
-    <div id="email-domains-chart-container"></div>
+    <!-- Contenedor principal -->
+    <div class="container">
+
+        <!-- Título principal -->
+        <h1>Talento Tech</h1>
+
+        <!-- Subtítulo -->
+        <h2>Análisis de Datos</h2>
+
+        <!-- Sub-subtítulo -->
+        <h3>Talle 1</h3>
+
+        <!-- Sub-subtítulo -->
+        <h3>Grupo 1</h3>
+        
+        <!-- Sub-Sub-subtítulo -->
+        <h4>Puntos 1 y 2</h4>
+
+        <!-- Párrafo de descripción con estilos -->
+        <div class="justified-centered">
+            <p>Se generó un json con data aleatoria con 500,000 registros, incluyendo los campos de nombre, email y password. Esta información fue publicada en las APIs:</p>
+            <ul>
+                <li><a href="http://127.0.0.1:5000/password_lengths" target="_blank">http://127.0.0.1:5000/password_lengths</a></li>
+                <li><a href="http://127.0.0.1:5000/email_domains" target="_blank">http://127.0.0.1:5000/email_domains</a></li>
+            </ul>
+            <p>Que proporcionan datos sobre la longitud de las contraseñas y el número de dominios de correo electrónico diferentes, respectivamente. Posteriormente, se consumieron estas APIs utilizando JavaScript y se representaron gráficamente utilizando la biblioteca Plotly. Los resultados se presentan en la página principal <b>index.html</b>.</p>
+        </div>
+
+
+
+        <!-- Fila de gráficas -->
+        <div class="charts-row">
+            <!-- Contenedor donde se mostrará el gráfico de longitud de contraseñas -->
+            <div class="chart-item" id="password-lengths-chart-container"></div>
+
+            <!-- Contenedor donde se mostrará el gráfico de dominios de correos electrónicos -->
+            <div class="chart-item" id="email-domains-chart-container"></div>
+        </div>
+
+    </div>
+
+    <!-- Banner inferior -->
+    <img class="banner" src="banner.png" alt="Banner inferior">
 </body>
 </html>
