@@ -6,8 +6,8 @@ Andres Pacheco
 
 
 Como ejecutar punto 1
-
-
+instalar Plotly en JS
+instalar flask y flask_cors en Python
 
 Como ejecutar punto 2
 
