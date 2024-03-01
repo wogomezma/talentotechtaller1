@@ -1,0 +1,46 @@
+/* Estilo para centrar el contenido en el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    text-align: center;
+}
+
+/* Estilo para los títulos y subtítulos */
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para los contenedores de los gráficos */
+.chart-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen del banner */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para cada gráfica en la fila */
+.chart-item {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+
+/* Estilo para justificar y centrar el párrafo */
+.justified-centered {
+    text-align: justify;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%; 
+    margin: 20px auto;
+}
